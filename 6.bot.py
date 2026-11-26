@@ -1628,7 +1628,7 @@ async def seq_nc_worker(chat_id: int, base_text: str, active_bots: list, task_id
 
 
 
-            max_repeats = max(1, (125 - base_len - 1) .. max(1, emoji_len))
+            max_repeats = max(1, (125 - base_len - 1) // max(1, emoji_len))
 
 
 
